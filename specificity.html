@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Specificity</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <style>
+        .frist-hedaing {
+            color: chocolate;
+        }
+
+        #third {
+            color: red
+        }
+
+        h1 {
+            background-color: cyan;
+        }
+
+        h1 {
+            color: cadetblue;
+        }
+
+        h1 {
+            color: blue;
+        }
+
+        p {
+            border: 2px solid red;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>1000</h3>
+    <h3>0001</h3>
+    <h1 class="frist-hedaing">My heading number-1</h1>
+    <h1 class="frist-hedaing">My heading number-2</h1>
+    <h1 id="third" class="frist-hedaing" style="color: white;">My heading number-3</h1>
+    <h1 class="frist-hedaing">My heading number-4</h1>
+    <p>this is my text description</p>
+    <p>this is my text description</p>
+    <p>this is my text description</p>
+    <p>this is my text description</p>
+    <p>this is my text description</p>
+</body>
+
+</html>
